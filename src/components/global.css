@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* App Container */
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #ff5733; /* Red-Orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  /* Main Content */
+  .main {
+    flex: 1;
+    padding: 20px;
+    background-color: #3498db; /* Blue */
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  /* Sidebar Container */
+  .sidebar {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ddd;
+    justify-content: center;
+  }
+  
+  /* Sidebar1 */
+  .sidebar1 {
+    flex: 1;
+    padding: 20px;
+    background-color: #27ae60; /* Green */
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  
+  /* Sidebar2 */
+  .sidebar2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #f39c12; /* Orange */
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #8e44ad; /* Purple */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: auto;
+  }
+  

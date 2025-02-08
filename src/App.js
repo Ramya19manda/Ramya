@@ -65,14 +65,47 @@
 
 
 
-import React from "react";
-import FBCStateEx from "./stateexample/FBCStateEx";
-const App = () => {
+// import React from "react";
+// import FBCStateEx from "./stateexample/FBCStateEx";
+// const App = () => {
+//   return (
+//     <div>App <FBCStateEx/>      
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// import React from 'react';
+// import FunctionalComponent from './components/FunctionalComponent';
+// import './components/Styles.css'
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h2 class={StyleSheet.error}>Errrr</h2>
+//       <h1 class='heading'>Thus is on styling class</h1>
+
+//       {<FunctionalComponent clgName='MRU' city='hyd' apply={true}>
+//         <h1>hello good afternoon</h1>
+//       </FunctionalComponent> }
+//     </div>
+//   )
+// }
+
+// export default App
+import React from 'react';
+import ClassComponent from './components/ClassComponent';
+
+function App() {
   return (
-    <div>App <FBCStateEx/>      
+    <div className="App">
+      <h1>Welcome to React</h1>
+      <ClassComponent />
     </div>
   );
-};
+}
 
 export default App;
+
 

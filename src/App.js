@@ -94,18 +94,29 @@
 // }
 
 // export default App
+// import React from 'react';
+// import ClassComponent from './components/ClassComponent';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Welcome to React</h1>
+//       <ClassComponent />
+//     </div>
+//   );
+// }
+
+// export default App;
 import React from 'react';
-import ClassComponent from './components/ClassComponent';
+import UseEffectEx from './hookexample/UseEffectEx';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to React</h1>
-      <ClassComponent />
+      <h1> UseEffectEx</h1>
+      <UseEffectEx />
     </div>
   );
 }
 
 export default App;
-
-

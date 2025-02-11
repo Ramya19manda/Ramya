@@ -108,13 +108,14 @@
 
 // export default App;
 import React from 'react';
-import UseEffectEx from './hookexample/UseEffectEx';
-
+// import UseEffectEx from './hookexample/UseEffectEx';
+import RefExamples from './hookexample/RefExamples';
 function App() {
   return (
     <div className="App">
       <h1> UseEffectEx</h1>
-      <UseEffectEx />
+      {/* <UseEffectEx /> */}
+      <RefExamples />
     </div>
   );
 }

@@ -25,10 +25,12 @@ const UseEffectEx = () => {
     return (
         <div className="parent">
             <h2>UseEffect Example</h2>
-            {users.map((user) => (
+            {users.map((user,index) => (
                 <div key={user.id}> {/* Correct key usage */}
+                <React.Fragment key={index}>
                     <h1>{user.name}</h1>
                     <h3>{user.email}</h3>
+                    </React.Fragment>
                 </div>
             ))}
         </div>

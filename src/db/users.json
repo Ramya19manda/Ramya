@@ -1,0 +1,26 @@
+{
+    "users":[
+        {
+          "id":"1",
+          "name":"Ramya",
+          "email":"ramya@gmail.com",
+          "phone":"1203456789"
+
+        },
+        {
+           "id":"2",
+           "name":"Rani",
+           "email":"rani@gmail.com",
+           "phone":"1203456789"
+
+        },
+        {
+        
+           "id":"3",
+           "name":"Rajesh",
+           "email":"rajesh@gmail.com",
+           "phone":"1203456789"
+        }
+
+    ]
+}

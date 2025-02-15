@@ -63,16 +63,24 @@
 // }
 // export default App
 
-import React from "react";
-import Card from "./Card";
-
-function App() {
+import React from 'react'
+import {BrowserRouter , Routes , Route} from "react-router-dom";
+import Home from './crudcomponents/Home';
+import Create from './crudcomponents/Create';
+import Edit from './crudcomponents/Edit';
+import {ToastContainer} from "react-toastify";
+const App = () => {
   return (
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}>
-      <Card />
-    </div>
-  );
+    <BrowserRouter>
+    <ToastContainer/>
+      <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/create' element={<Create/>}/>
+      <Route path='/edit/:userId' element={<Edit/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
 

@@ -40,25 +40,39 @@
 
 
 
-import React from 'react'
-import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Home from './crudcomponents/Home';
-import Create from './crudcomponents/Create';
-import Edit from './crudcomponents/Edit';
+// import React from 'react'
+// import {BrowserRouter,Routes,Route} from "react-router-dom";
+// import Home from './crudcomponents/Home';
+// import Create from './crudcomponents/Create';
+// import Edit from './crudcomponents/Edit';
 
-const App=()=>{
-    return(
-        <BrowserRouter>
-        <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/create' element={<Create/>}/>
-        <Route path='/edit/:userId' element={<Edit/>}/>
-        <Route/>
-        <Route />
-        </Routes>
-        </BrowserRouter>
+// const App=()=>{
+//     return(
+//         <BrowserRouter>
+//         <Routes>
+//         <Route path='/' element={<Home/>}/>
+//         <Route path='/create' element={<Create/>}/>
+//         <Route path='/edit/:userId' element={<Edit/>}/>
+//         <Route/>
+//         <Route />
+//         </Routes>
+//         </BrowserRouter>
         
-    )
+//     )
 
+// }
+// export default App
+
+import React from "react";
+import Card from "./Card";
+
+function App() {
+  return (
+    <div style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}>
+      <Card />
+    </div>
+  );
 }
-export default App
+
+export default App;
+
